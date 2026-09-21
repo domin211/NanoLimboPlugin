@@ -5,7 +5,7 @@ Run lightweight [NanoLimbo](https://github.com/Nan1t/NanoLimbo) limbo servers **
 This is a port of [Nan1t's NanoLimbo](https://github.com/Nan1t/NanoLimbo) (v1.13.0) core into plugin form: the full upstream protocol stack, configuration format, and connection flow, driven from Velocity with multi-limbo support and proxy commands.
 
 General features:
-* Full protocol parity with upstream NanoLimbo — every version from 1.7.2 through 26.2.
+* Full protocol parity with upstream NanoLimbo — every version from 1.7.2 through 26.3.
 * Multiple limbo servers from one plugin, each with its own `settings.yml`.
 * Native **Velocity** integration: limbos are registered as backend servers, players can be forwarded to them, and `MODERN` / `LEGACY` / `BUNGEE_GUARD` info forwarding is supported per limbo.
 * High performance — no threads per player, fixed thread pool, no useless data cached.
@@ -33,6 +33,7 @@ Symbol `X` means all minor versions.
 - [x] 1.21.X &nbsp; *(incl. 1.21.2, 1.21.3, 1.21.4, 1.21.5, 1.21.6, 1.21.7, 1.21.8, 1.21.9, 1.21.10, 1.21.11)*
 - [x] 26.1.X
 - [x] 26.2
+- [x] 26.3
 
 The server **doesn't** support snapshot versions.
 
