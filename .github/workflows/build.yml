@@ -2,7 +2,7 @@ name: Build NanoLimboVelocity
 
 on:
   push:
-    branches: [main, support-26.3]
+    branches: [main, support-26.3, fix-velocity-4.2]
   workflow_dispatch:
 
 permissions:
