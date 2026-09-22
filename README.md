@@ -39,7 +39,7 @@ The server **doesn't** support snapshot versions.
 
 ## Installation
 
-Required software: Velocity 3.3+ running on **Java 21**.
+Required software: Velocity 4.2+ running on **Java 25**.
 
 1. Download (or build) `velocity-x.y.z-all.jar` and drop it into Velocity's `plugins/` folder.
 2. Start Velocity once — the plugin creates `plugins/nanolimbovelocity/config.yml` and a `settings.yml` for each configured limbo.
@@ -119,7 +119,7 @@ If you don't want console commands, pass your own `CommandHandler` implementatio
 
 ## Building
 
-Required software: JDK 21.
+Required software: JDK 25.
 
 ```
 ./gradlew shadowJar
