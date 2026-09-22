@@ -1,14 +1,14 @@
 dependencies {
     implementation 'org.spongepowered:configurate-yaml:4.2.0'
-    implementation 'io.netty:netty-handler:4.2.15.Final'
+    implementation 'io.netty:netty-handler:4.2.18.Final'
     implementation 'com.google.code.gson:gson:2.14.0'
 
-    implementation 'io.netty:netty-transport-native-epoll:4.2.15.Final:linux-x86_64'
-    implementation 'io.netty:netty-transport-native-epoll:4.2.15.Final:linux-aarch_64'
-    implementation 'io.netty:netty-transport-native-io_uring:4.2.15.Final:linux-x86_64'
-    implementation 'io.netty:netty-transport-native-io_uring:4.2.15.Final:linux-aarch_64'
-    implementation 'io.netty:netty-transport-native-kqueue:4.2.15.Final:osx-x86_64'
-    implementation 'io.netty:netty-transport-native-kqueue:4.2.15.Final:osx-aarch_64'
+    implementation 'io.netty:netty-transport-native-epoll:4.2.18.Final:linux-x86_64'
+    implementation 'io.netty:netty-transport-native-epoll:4.2.18.Final:linux-aarch_64'
+    implementation 'io.netty:netty-transport-native-io_uring:4.2.18.Final:linux-x86_64'
+    implementation 'io.netty:netty-transport-native-io_uring:4.2.18.Final:linux-aarch_64'
+    implementation 'io.netty:netty-transport-native-kqueue:4.2.18.Final:osx-x86_64'
+    implementation 'io.netty:netty-transport-native-kqueue:4.2.18.Final:osx-aarch_64'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.3'
